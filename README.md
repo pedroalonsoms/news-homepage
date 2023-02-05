@@ -13,6 +13,7 @@ Completed FrontendMentor.io challenge by implementing the home page frontend of 
 
 - Implement accesibility
 - Improve semantic HTML
+- Lazy load images
 
 # Credits
 
