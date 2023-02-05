@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage
 
-Completed FrontendMentor.io challenge by implementing the home page of a responsive website given various design pictures and a style guide
+Completed FrontendMentor.io challenge by implementing the home page frontend of a responsive website given various design pictures and a style guide
 
 [Live](https://pedroalonsoms.github.io/news-homepage/) on GitHub Pages
 
