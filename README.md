@@ -2,7 +2,7 @@
 
 Completed FrontendMentor.io challenge by implementing the home page of a responsive website given various design pictures and a style guide
 
-[Live]() on GitHub Pages
+[Live](https://pedroalonsoms.github.io/news-homepage/) on GitHub Pages
 
 # Tech Stack
 
