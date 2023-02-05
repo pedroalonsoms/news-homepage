@@ -23,6 +23,6 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 - Got tons of advice from [Kevin Powell's channel](https://www.youtube.com/@KevinPowell)
 - Mobile NavBar of [Kevin Powell](https://www.youtube.com/watch?v=HbBMp6yUXO0)
-- CSS [Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+- Josh W Comeau [CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 - [Web development](https://web.dev/) guide by Chrome Devlopers
 - Some help from [StackOverflow](https://stackoverflow.com/)
