@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage
 
-Completed FrontendMentor.io challenge by implementing the home page of a responsive website given various design pictures
+Completed FrontendMentor.io challenge by implementing the home page of a responsive website given various design pictures and a style guide
 
 [Live]() on GitHub Pages
 
@@ -16,7 +16,7 @@ Completed FrontendMentor.io challenge by implementing the home page of a respons
 
 # Credits
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. You can check the initial design pictures of the challenge on their webpage.
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. You can check the initial design pictures and style guide of the challenge on their webpage.
 
 # Acknowledgements
 
