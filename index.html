@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="content">
+      <header class="main-header" aria-expanded="false">
+        <a class="link-logo" href="#">
+          <img src="assets/images/logo.svg" alt="Logo" width="65" height="40" />
+        </a>
+        <nav id="main-nav" class="main-nav">
+          <a class="link" href="#">Home</a>
+          <a class="link" href="#">New</a>
+          <a class="link" href="#">Popular</a>
+          <a class="link" href="#">Trending</a>
+          <a class="link" href="#">Categories</a>
+        </nav>
+        <button class="nav-toggle" aria-controls="main-nav"></button>
+      </header>
+
+      <main>
+        <div class="main-grid">
+          <div class="main-grid-item">
+            <picture class="main-grid-picture">
+              <source
+                srcset="assets/images/image-web-3-desktop.jpg"
+                type="image/jpg"
+                width="1460"
+                height="600"
+                media="(min-width: 50em)"
+              />
+              <img
+                src="assets/images/image-web-3-mobile.jpg"
+                width="686"
+                height="600"
+                alt="Wood rectangles of various colors and forms laying down"
+              />
+            </picture>
+          </div>
+          <div class="main-grid-item">
+            <h1 class="main-article__title">The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="main-grid-item">
+            <p class="main-article__description">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <a href="#">
+              <button class="main-article__read-more">Read more</button>
+            </a>
+          </div>
+          <div class="main-grid-item">
+            <aside class="new-articles">
+              <h2 class="new-articles__title">New</h2>
+              <div class="new-article">
+                <a href="#">
+                  <h3 class="new-article__title">Hydrogen VS Electric Cars</h3>
+                </a>
+                <p class="new-article__description">
+                  Will hydrogen-fueled cars ever catch up to EVs?
+                </p>
+              </div>
+              <hr class="new-articles__division" />
+              <div class="new-article">
+                <a href="#">
+                  <h3 class="new-article__title">
+                    The Downsides of AI Artistry
+                  </h3>
+                </a>
+                <p class="new-article__description">
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </div>
+              <hr class="new-articles__division" />
+              <div class="new-article">
+                <a href="#">
+                  <h3 class="new-article__title">Is VC Funding Drying Up?</h3>
+                </a>
+                <p class="new-article__description">
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </main>
+
+      <section>
+        <ol class="article-list">
+          <li class="article-list-item">
+            <img
+              class="article-list-item__image"
+              src="assets/images/image-retro-pcs.jpg"
+              alt="A white retro computer surrounded by an old white keyboard, a joystick and a GameBoy"
+            />
+            <div class="article-list-item__content">
+              <p class="article-list-item__number">01</p>
+              <a href="#">
+                <h2 class="article-list-item__title">Reviving Retro PCs</h2>
+              </a>
+              <p class="article-list-item__description">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+          </li>
+          <li class="article-list-item">
+            <img
+              class="article-list-item__image"
+              src="assets/images/image-top-laptops.jpg"
+              alt="A close photo of a black keyboard with red keys"
+            />
+            <div class="article-list-item__content">
+              <p class="article-list-item__number">02</p>
+              <a href="#">
+                <h2 class="article-list-item__title">Top 10 Laptops of 2022</h2>
+              </a>
+              <p class="article-list-item__description">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+          </li>
+          <li class="article-list-item">
+            <img
+              class="article-list-item__image"
+              src="assets/images/image-gaming-growth.jpg"
+              alt="A modern white game controller which is being thrown upside by a hand"
+            />
+            <div class="article-list-item__content">
+              <p class="article-list-item__number">03</p>
+              <a href="#">
+                <h2 class="article-list-item__title">The Growth of Gaming</h2>
+              </a>
+              <p class="article-list-item__description">
+                How the pandemic has sparked fresh opportunities.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">pedroalonsoms</a>.
+      </div>
+    </div>
+  </body>
+</html>
